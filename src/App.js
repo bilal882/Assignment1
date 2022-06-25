@@ -1,9 +1,10 @@
 import "./Boostrap/index.css";
+import Navbar from "./Component/Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      hi 
+      <Navbar />
     </div>
   );
 }
