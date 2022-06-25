@@ -45,8 +45,8 @@ export default function About() {
                                 <img src={card.image} class="card-img-top" alt="Image" />
                                 <div class="card-body">
                                     <h5 class="card-title">{card.name}</h5>
+                                    <h6>{card.function}</h6>
                                     <p class="card-text">{card.desc}</p>
-                                    <h4>{card.function}</h4>
                                     <button class="btn btn-secondary container-fluid">Cencel</button>
                                 </div>
                             </div>

@@ -26,6 +26,12 @@
     font-size: 1.3rem;
     font-weight: 600;
 }
+
+::selection {
+    color: white;
+    background: #4ef54e65;
+}
+
 /* 
 ::-webkit-scrollbar {
     background-color: hsl(0, 0%, 100%);
