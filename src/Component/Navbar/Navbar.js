@@ -5,8 +5,8 @@ export default function Navbar() {
         <div>
             <nav class="navbar fixed-top navbar-expand-lg bg-light shadow">
                 <div class="container-fluid">
-                    <a class="navbar-brand text-dark" href="#">B R Architects</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="#">B R Architects</a>
+                    <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
