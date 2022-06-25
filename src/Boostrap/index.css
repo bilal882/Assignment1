@@ -2,6 +2,35 @@
   width: 10px;
 }
 
+.main {
+  height: 39rem;
+  margin-top: 2rem;
+  width: 100%;
+  background: url("https://cdn.pixabay.com/photo/2016/11/21/15/11/architecture-1845893_960_720.jpg") fixed no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spe {
+  height: 3rem;
+  width: 3rem;
+  font-size: 2rem;
+  font-weight: 650;
+}
+
+.sp {
+  background: rgba(48, 48, 48, 0.419);
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
 ::-webkit-scrollbar {
   background-color: hsl(0, 0%, 100%);
 }
