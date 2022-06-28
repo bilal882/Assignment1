@@ -36,24 +36,24 @@ export default function About() {
                 </h1>
                 <hr />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            {
-                cards.map((card) => {
-                    return (
-                        <div className='d-inline-block ms-5 shadow'>
-                            <div class="card" style={{ width: '18rem' }}>
-                                <img src={card.image} class="card-img-top" alt="Image" />
-                                <div class="card-body">
-                                    <h5 class="card-title">{card.name}</h5>
-                                    <h6>{card.function}</h6>
-                                    <p class="card-text">{card.desc}</p>
-                                    <button class="btn btn-secondary container-fluid">Cencel</button>
+                {
+                    cards.map((card) => {
+                        return (
+                            <div className='d-inline-block mb-4 ms-3 shadow'>
+                                <div class="card" style={{ width: '16rem' }}>
+                                    <img src={card.image} class="card-img-top" alt="Image" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">{card.name}</h5>
+                                        <h6>{card.function}</h6>
+                                        <p class="card-text">{card.desc}</p>
+                                        <button class="btn btn-secondary container-fluid">Cencel</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    )
-                })
-            }
+                        )
+                    })
+                }
+            </div>
         </di>
     )
 }

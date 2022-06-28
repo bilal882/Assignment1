@@ -1,4 +1,5 @@
 import React from 'react'
+import { animateScroll, scroller, ScrollLink } from 'react-scroll';
 
 export default function Navbar() {
     return (
@@ -12,13 +13,25 @@ export default function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                                <button class="nav-link " onClick={() => {
+                                    scroller.scrollTo("projects", {
+                                        duration: 100,
+                                    })
+                                }} >Projects</button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <button class="nav-link" onClick={() => {
+                                    scroller.scrollTo("about", {
+                                        duration: 10,
+                                    })
+                                }}>About</button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <button class="nav-link" onClick={() => {
+                                    scroller.scrollTo("contact", {
+                                        duration: 100,
+                                    })
+                                }}>Contact</button>
                             </li>
                         </ul>
                     </div>

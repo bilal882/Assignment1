@@ -8,7 +8,10 @@
     justify-content: center;
     align-items: center;
 }
-
+button.nav-link{
+    border: none;
+    background-color: whitesmoke;
+}
 .spe {
     height: 3rem;
     width: 3rem;
@@ -4385,7 +4388,7 @@ fieldset:disabled .btn {
 
 .navbar-collapse {
     flex-basis: 100%;
-    /* flex-grow: 1; */
+    flex-grow: 0;
     align-items: center
 }
 
